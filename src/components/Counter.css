@@ -1,0 +1,23 @@
+.btn {
+    padding: 10px 15px;
+    background-color: #555;
+    color: white;
+    border-radius: 1em;
+    border: none;
+    outline: none;
+    margin: 10px;
+}
+
+.count {
+    font-size: 2em;
+    font-weight: 500;
+    color: #555;
+}
+
+.container {
+    /* align-items: center; */
+    justify-self: center;
+    margin: auto;
+    height: 50vh;
+    width: 50vw;
+}
