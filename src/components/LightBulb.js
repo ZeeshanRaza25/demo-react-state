@@ -1,14 +1,17 @@
 import React, { useState } from 'react'
-import on from '../assets/on1.png';
-import off from '../assets/off1.png';
+import on from '../assets/onfinal.png';
+import off from '../assets/offFinal.png';
+import './LightBulb.css';
 
 export default function LightBulb() {
     const [Bulb, setBulb] = useState(false);
     return (
         <div className="bulb">
+            <br />
             <img src={`${Bulb ? on : off}`} alt="bulb" />
-            <button onClick={() => setBulb(true)} >On</button>
-            <button onClick={() => setBulb(false)} >Off</button>
+            <br />
+            <button className="buttn" onClick={() => setBulb(true)} >On</button>
+            <button className="buttn" onClick={() => setBulb(false)} >Off</button>
         </div>
     )
 }

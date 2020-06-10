@@ -1,4 +1,10 @@
 .bulb {
     height: 50vh;
     width: 50vw;
-  }
+    align-items: center;
+}
+
+.buttn {
+  margin: 10px;
+  align-self: center;
+}

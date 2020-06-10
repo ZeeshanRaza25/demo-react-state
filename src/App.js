@@ -3,6 +3,7 @@ import './App.css';
 import Room from './components/Room'
 import LightBulb from './components/LightBulb';
 import Counter from './components/Counter';
+import Temprature from './components/Tempreture';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       </div>
       <div>
         <Counter />
+        <Temprature />
       </div>
     </div>
   );

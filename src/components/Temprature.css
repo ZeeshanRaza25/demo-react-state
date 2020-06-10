@@ -1,4 +1,20 @@
 .container {
     height: 50vh;
     width: 50vw;
-  }
+}
+
+.span {
+    font-size: 2em;
+    font-weight: 400;
+    color: #555;
+}
+
+.button {
+    padding: 10px 15px;
+    background-color: #555;
+    color: white;
+    border-radius: 0.5em;
+    border: none;
+    outline: none;
+    margin: 10px;
+}
